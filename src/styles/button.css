@@ -1,0 +1,36 @@
+.btn {
+  border-radius: 100%;
+  border: none;
+  width: 70%;
+  height: 100%;
+  font-size: 1rem;
+  color: white;
+  background-color: #484848;
+}
+
+.btn:hover {
+  background-color: #505050;
+}
+
+.extra {
+  background-color: #c0c0c0;
+}
+
+.extra:hover {
+  background-color: #c8c8c8;
+}
+
+.operation {
+  background-color: #ffa500;
+  font-size: 1.5rem;
+}
+
+.operation:hover {
+  background-color: #f4bb44;
+}
+
+.zero {
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 3%;
+}

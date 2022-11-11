@@ -1,0 +1,24 @@
+.grid-container {
+  background-color: black;
+  width: 320px;
+  margin: auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 5rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 3.3rem);
+  row-gap: 10px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  grid-column: 1/-1;
+}
+
+.zero {
+  grid-column: span 2;
+}
